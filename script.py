@@ -9,11 +9,11 @@ def createFolder(directory):
         
 def python_project():
     folder_title = input('Folder Name: ')
-    foldername = f'C:\\Users\\jmali\\OneDrive\\Desktop\\pythonfiles\\{folder_title}'
+    foldername = f'C:\\Users\\USER\\ENTER PATH HERE\\{folder_title}'
     createFolder(foldername)
     # Creates a folder in the current directory called data
-
-    filename = f'C:\\Users\\jmali\\OneDrive\\Desktop\\pythonfiles\\{folder_title}\\main.py'
+    # Change directory to fit user's needs - this is only an example
+    filename = f'C:\\Users\\USER\\ENTER PATH HERE\\{folder_title}\\main.py'
 
     f = open(filename, "x")
     f.close()
@@ -22,12 +22,12 @@ def python_project():
 
 def html_project():
     folder_title = input('Folder Name: ')
-    foldername = f'C:\\Users\\jmali\\OneDrive\\Desktop\\HTML\\{folder_title}'
+    foldername = f'C:\\Users\\USER\\ENTER PATH HERE\\{folder_title}'
     createFolder(foldername)
     # Creates a folder in the current directory called data
 
-    html_filename = f'C:\\Users\\jmali\\OneDrive\\Desktop\\HTML\\{folder_title}\\index.html'
-    css_filename = f'C:\\Users\\jmali\\OneDrive\\Desktop\\HTML\\{folder_title}\\styles.css'
+    html_filename = f'C:\\Users\\USER\\ENTER PATH HERE\\{folder_title}\\index.html'
+    css_filename = f'C:\\Users\\USER\\ENTER PATH HERE\\{folder_title}\\styles.css'
     
     hf = open(html_filename, "a")
     hf.write('''<!DOCTYPE html>
